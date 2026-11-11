@@ -1,0 +1,146 @@
+{
+  "proposals": [
+    {
+      "id": "pr1",
+      "initiativeId": "i5",
+      "format": "template",
+      "note": "The checklist is tested at four sites and could help any clinic that wants to start.",
+      "proposedById": "p5",
+      "date": "2027-11-02",
+      "status": "waiting"
+    }
+  ],
+  "pinned": [
+    {
+      "id": "pin1",
+      "authorId": "p1",
+      "date": "2027-11-12",
+      "title": "Partner meeting in Gdańsk, 1–2 December",
+      "text": "The draft agenda is in the document library. Please prepare a five-minute status for each initiative you own.",
+      "audience": "partners"
+    },
+    {
+      "id": "pin3",
+      "authorId": "p18",
+      "date": "2027-11-10",
+      "audience": "all",
+      "title": "Open network meeting on 24 November",
+      "text": "All partners and associated partners are welcome. Two partner clinics share short examples, and there is time for your questions."
+    },
+    {
+      "id": "pin2",
+      "authorId": "p18",
+      "date": "2027-11-05",
+      "title": "Input for the activity report is due on 30 November",
+      "text": "Send a short text about your activities and results. Financial reporting is handled outside this platform.",
+      "audience": "partners"
+    }
+  ],
+  "settings": {
+    "digest": "weekly",
+    "notifyMentions": true,
+    "notifyActions": true,
+    "notifyNetwork": false
+  },
+  "activity": [
+    {
+      "id": "a1",
+      "date": "2027-11-12T15:40:00",
+      "actorId": "p10",
+      "verb": "thread.created",
+      "link": "/discussions/t7",
+      "title": "Which tablets work well for home exercise for older patients?"
+    },
+    {
+      "id": "a2",
+      "date": "2027-11-12T11:00:00",
+      "actorId": "p1",
+      "verb": "document.version",
+      "link": "/documents/d21",
+      "title": "Agenda: partner meeting in Gdańsk"
+    },
+    {
+      "id": "a3",
+      "date": "2027-11-11T15:00:00",
+      "actorId": "p2",
+      "verb": "thread.replied",
+      "link": "/discussions/t2",
+      "title": "Referral pathway: results from the first two weeks"
+    },
+    {
+      "id": "a4",
+      "date": "2027-11-11T09:20:00",
+      "actorId": "p5",
+      "verb": "document.version",
+      "link": "/documents/d12",
+      "title": "Delphi questionnaire, round 1"
+    },
+    {
+      "id": "a5",
+      "date": "2027-11-10T10:15:00",
+      "actorId": "p13",
+      "verb": "thread.created",
+      "link": "/discussions/t6",
+      "title": "Does anyone have a consent text for video exercise sessions?"
+    },
+    {
+      "id": "a6",
+      "date": "2027-11-10T09:00:00",
+      "actorId": "p7",
+      "verb": "document.status",
+      "link": "/documents/d9",
+      "title": "National guidelines overview: Poland",
+      "detail": "For review"
+    },
+    {
+      "id": "a7",
+      "date": "2027-11-08T08:00:00",
+      "actorId": "p2",
+      "verb": "initiative.moved",
+      "link": "/initiatives/i1",
+      "title": "Referral pathway from oncologists to physiotherapists",
+      "detail": "Test"
+    },
+    {
+      "id": "a8",
+      "date": "2027-11-05T10:30:00",
+      "actorId": "p3",
+      "verb": "initiative.created",
+      "link": "/initiatives/i12",
+      "title": "Follow-up call after the first digital session"
+    },
+    {
+      "id": "a9",
+      "date": "2027-11-04T16:00:00",
+      "actorId": "p5",
+      "verb": "document.added",
+      "link": "/documents/d16",
+      "title": "Training cycle 1: schedule"
+    },
+    {
+      "id": "a10",
+      "date": "2027-11-02T12:00:00",
+      "actorId": "p5",
+      "verb": "proposal.created",
+      "link": "/initiatives/i5",
+      "title": "Shared start-up checklist for new exercise oncology sites"
+    },
+    {
+      "id": "a11",
+      "date": "2027-10-30T14:00:00",
+      "actorId": "p5",
+      "verb": "document.status",
+      "link": "/documents/d17",
+      "title": "Start-up checklist for new sites",
+      "detail": "Approved"
+    },
+    {
+      "id": "a12",
+      "date": "2027-10-27T12:10:00",
+      "actorId": "p7",
+      "verb": "meeting.decision",
+      "link": "/calendar/m4",
+      "title": "WP3 workshop: planning the Academy"
+    }
+  ]
+}

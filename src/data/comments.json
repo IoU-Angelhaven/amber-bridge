@@ -1,0 +1,9 @@
+[
+  { "id": "c1", "targetType": "initiative", "targetId": "i1", "authorId": "p3", "date": "2027-11-08T09:12:00", "text": "We could test the same referral text in Ängelholm from December. Our record system is different, but the named receiver is easy to copy." },
+  { "id": "c2", "targetType": "initiative", "targetId": "i1", "authorId": "p2", "date": "2027-11-11T14:40:00", "text": "Good. 14 referrals in the first two weeks, compared with 5 in the same weeks last year." },
+  { "id": "c3", "targetType": "initiative", "targetId": "i4", "authorId": "p15", "date": "2027-11-10T16:05:00", "text": "Our group can review the Swedish text as well. Please use short sentences and large print." },
+  { "id": "c4", "targetType": "initiative", "targetId": "i9", "authorId": "p8", "date": "2027-11-10T11:30:00", "text": "The second session was useful. 45 minutes is enough if we discuss one case only." },
+  { "id": "c5", "targetType": "document", "targetId": "d7", "authorId": "p1", "date": "2027-11-09T10:00:00", "text": "Clear map. Please add who books the first physiotherapy visit." },
+  { "id": "c6", "targetType": "document", "targetId": "d12", "authorId": "p11", "date": "2027-11-12T13:20:00", "text": "Question 7 asks two things at once. I suggest we split it." },
+  { "id": "c7", "targetType": "document", "targetId": "d14", "authorId": "p5", "date": "2027-11-13T08:45:00", "text": "Module 3 could include the start-up checklist as a practical exercise." }
+]

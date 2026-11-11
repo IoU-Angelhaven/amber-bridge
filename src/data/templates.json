@@ -1,0 +1,8 @@
+[
+  { "id": "tpl1", "title": "Meeting minutes", "type": "minutes", "description": "Participants, short notes for each agenda point, decisions and actions with owner and due date.", "fileType": "Word", "updated": "2027-06-10" },
+  { "id": "tpl2", "title": "Agenda", "type": "agenda", "description": "Purpose of the meeting, agenda points with time and responsible person, and what to prepare.", "fileType": "Word", "updated": "2027-06-10" },
+  { "id": "tpl3", "title": "Interview guide", "type": "guide", "description": "Introduction, consent text, open questions and closing. Reminds you not to record names of patients.", "fileType": "Word", "updated": "2027-07-20" },
+  { "id": "tpl4", "title": "Delphi questionnaire", "type": "questionnaire", "description": "Statements with a five-step agreement scale and room for comments, for expert panel rounds.", "fileType": "Word", "updated": "2027-10-01" },
+  { "id": "tpl5", "title": "Report template", "type": "report", "description": "Standard layout with summary, method, results, what we learned and next steps.", "fileType": "Word", "updated": "2027-06-10" },
+  { "id": "tpl6", "title": "Checklist", "type": "checklist", "description": "Simple checklist with step, responsible person and date done.", "fileType": "Excel", "updated": "2027-08-25" }
+]

@@ -1,0 +1,114 @@
+@import 'tailwindcss';
+
+/* Visual style follows the open AMBeR platform (ehealth-implementation):
+   Interreg South Baltic palette, Open Sans, white cards on soft grey, 4px corners. */
+@theme {
+  --font-sans: 'Open Sans Variable', 'Open Sans', Arial, sans-serif;
+  --color-brand: #003399;
+  --color-brand-dark: #002266;
+  --color-brand-light: #9faee5;
+  --color-brand-tint: #eef1fb;
+  --color-accent: #e25d25;
+  --color-accent-text: #c4461a;
+  --color-sun: #ffcc00;
+  --color-ink: #1d2939;
+  --color-muted: #5f717b;
+  --color-soft: #f4f6fa;
+  --color-line: #dde2ec;
+  --color-field: #7d8b97;
+  --shadow-card: 0 1px 2px rgb(29 41 57 / 0.04), 0 6px 20px rgb(29 41 57 / 0.05);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-soft text-ink font-sans;
+    line-height: 1.6;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-sun);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px var(--color-brand);
+  }
+  h1 {
+    @apply text-brand text-3xl font-light leading-tight md:text-4xl;
+  }
+  h2 {
+    @apply text-accent-text text-xl leading-snug;
+  }
+  h3 {
+    @apply text-base font-semibold leading-snug;
+  }
+  a {
+    @apply text-brand underline underline-offset-2;
+  }
+  a:hover {
+    @apply text-accent-text;
+  }
+  dialog::backdrop {
+    background: rgb(29 41 57 / 0.55);
+  }
+}
+
+@layer components {
+  .btn {
+    @apply border-brand bg-brand inline-flex min-h-10 cursor-pointer items-center justify-center gap-2 rounded border-2 px-4 py-1.5 text-sm font-semibold text-white no-underline;
+  }
+  .btn:hover {
+    @apply bg-brand-dark border-brand-dark text-white;
+  }
+  .btn-ghost {
+    @apply text-brand bg-white;
+  }
+  .btn-ghost:hover {
+    @apply bg-brand-tint text-brand border-brand;
+  }
+  .btn-sm {
+    @apply min-h-8 px-2.5 py-0.5 text-xs;
+  }
+  .btn:disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+  .card {
+    @apply shadow-card rounded bg-white p-5;
+  }
+  .input {
+    @apply border-field text-ink min-h-10 w-full rounded border bg-white px-3 py-1.5 text-sm;
+  }
+  .label {
+    @apply text-ink mb-1 block text-sm font-semibold;
+  }
+  .eyebrow {
+    @apply text-accent-text block text-xs font-bold tracking-wider uppercase;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-sm px-1.5 py-0.5 text-xs font-semibold whitespace-nowrap;
+  }
+  .muted {
+    @apply text-muted text-sm;
+  }
+  .plain-link {
+    @apply text-ink no-underline;
+  }
+  .plain-link:hover {
+    @apply text-brand underline;
+  }
+}
+
+.sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

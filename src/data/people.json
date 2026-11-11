@@ -1,0 +1,20 @@
+[
+  { "id": "p1", "name": "Astrid Vestergaard", "title": "Project coordinator", "orgId": "o1", "role": "admin", "email": "astrid.vestergaard@example.org", "status": "active", "lastActive": "2027-11-15" },
+  { "id": "p2", "name": "Mikkel Brandstrup", "title": "Consultant oncologist", "orgId": "o1", "role": "member", "email": "mikkel.brandstrup@example.org", "status": "active", "lastActive": "2027-11-12" },
+  { "id": "p3", "name": "Linnea Sjöhage", "title": "Physiotherapist", "orgId": "o2", "role": "member", "email": "linnea.sjohage@example.org", "status": "active", "lastActive": "2027-11-15" },
+  { "id": "p4", "name": "Oskar Lindevall", "title": "Head of rehabilitation unit", "orgId": "o2", "role": "member", "email": "oskar.lindevall@example.org", "status": "active", "lastActive": "2027-11-10" },
+  { "id": "p5", "name": "Jannik Wöhlert", "title": "Sports scientist", "orgId": "o3", "role": "member", "email": "jannik.woehlert@example.org", "status": "active", "lastActive": "2027-11-14" },
+  { "id": "p6", "name": "Frauke Dettmann", "title": "Study nurse", "orgId": "o4", "role": "member", "email": "frauke.dettmann@example.org", "status": "active", "lastActive": "2027-11-08" },
+  { "id": "p7", "name": "Agnieszka Borowiak", "title": "Rehabilitation physician", "orgId": "o5", "role": "member", "email": "agnieszka.borowiak@example.org", "status": "active", "lastActive": "2027-11-13" },
+  { "id": "p8", "name": "Tomasz Wierzchoń", "title": "Physiotherapist", "orgId": "o6", "role": "member", "email": "tomasz.wierzchon@example.org", "status": "active", "lastActive": "2027-11-11" },
+  { "id": "p9", "name": "Marta Zielonka", "title": "Digital health researcher", "orgId": "o7", "role": "member", "email": "marta.zielonka@example.org", "status": "active", "lastActive": "2027-10-02" },
+  { "id": "p10", "name": "Paweł Gruszecki", "title": "Pulmonologist", "orgId": "o8", "role": "member", "email": "pawel.gruszecki@example.org", "status": "active", "lastActive": "2027-11-03" },
+  { "id": "p11", "name": "Rūta Daukšaitė", "title": "Public health researcher", "orgId": "o9", "role": "member", "email": "ruta.dauksaite@example.org", "status": "active", "lastActive": "2027-11-09" },
+  { "id": "p12", "name": "Mindaugas Vaitkūnas", "title": "Oncology nurse manager", "orgId": "o10", "role": "member", "email": "mindaugas.vaitkunas@example.org", "status": "active", "lastActive": "2027-11-12" },
+  { "id": "p13", "name": "Helle Nørgård", "title": "Clinic manager", "orgId": "o11", "role": "associate", "email": "helle.noergaard@example.org", "status": "active", "lastActive": "2027-11-15" },
+  { "id": "p14", "name": "Ewa Malinowska", "title": "Chair of the patient group", "orgId": "o14", "role": "associate", "email": "ewa.malinowska@example.org", "status": "active", "lastActive": "2027-11-05" },
+  { "id": "p15", "name": "Gunilla Ekstrand", "title": "Patient representative", "orgId": "o15", "role": "associate", "email": "gunilla.ekstrand@example.org", "status": "active", "lastActive": "2027-10-28" },
+  { "id": "p16", "name": "Birte Ahlmann", "title": "Practice owner, physiotherapist", "orgId": "o12", "role": "associate", "email": "birte.ahlmann@example.org", "status": "active", "lastActive": "2027-09-20" },
+  { "id": "p17", "name": "Gintarė Stankutė", "title": "Family doctor", "orgId": "o13", "role": "associate", "email": "gintare.stankute@example.org", "status": "invited" },
+  { "id": "p18", "name": "Søren Kjeldgaard", "title": "Communication officer", "orgId": "o1", "role": "admin", "email": "soeren.kjeldgaard@example.org", "status": "active", "lastActive": "2027-11-14" }
+]
