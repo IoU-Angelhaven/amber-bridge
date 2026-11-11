@@ -25,7 +25,7 @@ import { resetDb } from '../store/store';
 import { toast, useToast } from '../store/toast';
 import type { Role } from '../types';
 import Login from '../pages/Login';
-import { Notice } from './ui';
+import { Modal, Notice } from './ui';
 
 export const OPEN_PLATFORM_URL = 'https://iou-angelhaven.github.io/ehealth-implementation/';
 
@@ -90,20 +90,34 @@ function SearchBox({ className = '' }: { className?: string }) {
 
 function ResetButton() {
   const navigate = useNavigate();
+  const [open, setOpen] = useState(false);
   return (
-    <button
-      type="button"
-      className="btn btn-ghost btn-sm"
-      onClick={() => {
-        if (!window.confirm(t.app.resetConfirm)) return;
-        resetDb();
-        navigate('/');
-        toast(t.app.resetDone);
-      }}
-    >
-      <RotateCcw size={14} aria-hidden="true" />
-      {t.app.reset}
-    </button>
+    <>
+      <button type="button" className="btn btn-ghost btn-sm" onClick={() => setOpen(true)}>
+        <RotateCcw size={14} aria-hidden="true" />
+        {t.app.reset}
+      </button>
+      <Modal open={open} onClose={() => setOpen(false)} title={t.app.reset}>
+        <p>{t.app.resetConfirm}</p>
+        <div className="mt-5 flex justify-end gap-2">
+          <button type="button" className="btn btn-ghost" onClick={() => setOpen(false)}>
+            {t.common.cancel}
+          </button>
+          <button
+            type="button"
+            className="btn"
+            onClick={() => {
+              resetDb();
+              setOpen(false);
+              navigate('/');
+              toast(t.app.resetDone);
+            }}
+          >
+            {t.app.reset}
+          </button>
+        </div>
+      </Modal>
+    </>
   );
 }
 
