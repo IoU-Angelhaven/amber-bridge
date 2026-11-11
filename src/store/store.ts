@@ -16,7 +16,7 @@ import guides from '../data/guides.json';
 import learning from '../data/learning.json';
 import misc from '../data/misc.json';
 
-const STORAGE_KEY = 'amber-bridge-demo-v1';
+const STORAGE_KEY = 'amber-bridge-demo-v2';
 
 function seed(): Db {
   return structuredClone({

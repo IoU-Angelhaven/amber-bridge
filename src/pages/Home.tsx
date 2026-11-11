@@ -139,7 +139,9 @@ export default function Home() {
         <div className="space-y-5">
           <Section title={t.home.pinned}>
             <ul className="space-y-4">
-              {db.pinned.map((p) => (
+              {db.pinned
+                .filter((p) => p.audience === 'all' || session.can('calendar.viewAll'))
+                .map((p) => (
                 <li key={p.id} className="border-accent border-l-4 pl-3 text-sm">
                   <h3 className="flex items-center gap-1.5">
                     <Pin size={14} className="text-accent-text shrink-0" aria-hidden="true" />

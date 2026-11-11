@@ -258,6 +258,8 @@ export interface Activity {
 
 export interface PinnedMessage {
   id: string;
+  /** 'all' = also shown to associated partners. */
+  audience: 'all' | 'partners';
   authorId: string;
   date: string;
   title: string;
