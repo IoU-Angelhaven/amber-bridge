@@ -1,0 +1,28 @@
+{
+  "courses": [
+    { "id": "l1", "kind": "academy", "title": "South Baltic Exercise Oncology Academy", "description": "Six online modules for physiotherapists, nurses and physicians who are new to exercise in cancer care. Training cycle 1 starts in February 2028.", "format": "Online, with a teacher", "duration": "6 sessions of 90 minutes" },
+    { "id": "l2", "kind": "course", "title": "The AMBeR model in five phases", "description": "A short introduction to the AMBeR implementation model, from needs assessment to evaluation.", "format": "E-learning", "duration": "40 minutes" },
+    { "id": "l3", "kind": "course", "title": "Your first digital exercise consultation", "description": "Practical preparation: equipment, the room, safety and what to say to the patient.", "format": "E-learning", "duration": "30 minutes" },
+    { "id": "l4", "kind": "course", "title": "Test and learn several times", "description": "How to try a small change, see what happens and decide what to do next.", "format": "E-learning", "duration": "25 minutes" },
+    { "id": "l5", "kind": "material", "title": "Slides: Exercise during cancer treatment", "description": "Course material for module 1 of the Academy.", "format": "PowerPoint", "duration": "32 slides" },
+    { "id": "l6", "kind": "material", "title": "Handout: Safety checklist before an exercise session", "description": "One page to print and keep in the clinic.", "format": "PDF", "duration": "1 page" },
+    { "id": "l7", "kind": "material", "title": "Reading list: exercise oncology", "description": "Guidelines and review articles chosen by the Academy teachers.", "format": "PDF", "duration": "2 pages" }
+  ],
+  "facilitatorMaterials": [
+    { "id": "f1", "kind": "material", "title": "Practice Lab facilitator guide", "description": "How to prepare and lead a 45-minute online case discussion.", "format": "Word", "duration": "6 pages" },
+    { "id": "f2", "kind": "material", "title": "Session plan template", "description": "Plan with times, questions and tasks for one Academy session.", "format": "Word", "duration": "2 pages" },
+    { "id": "f3", "kind": "material", "title": "Example cases for discussion", "description": "Five invented patient cases. They contain no real patient data.", "format": "PDF", "duration": "5 pages" },
+    { "id": "f4", "kind": "material", "title": "Feedback form for participants", "description": "Five short questions to ask after each session.", "format": "Word", "duration": "1 page" }
+  ],
+  "experiences": [
+    { "id": "e1", "authorId": "p7", "date": "2027-10-14T16:30:00", "text": "First Practice Lab: eight participants from four countries. One case was enough for 45 minutes. Next time I will send the case two days before." },
+    { "id": "e2", "authorId": "p5", "date": "2027-11-10T17:05:00", "text": "Second Practice Lab: it helped to ask each person one direct question. Quiet participants said more when we used the chat first." }
+  ],
+  "submissions": [
+    { "id": "s1", "kind": "need", "from": "Physiotherapist, primary care", "country": "PL", "date": "2027-11-12", "text": "We need simple exercise instructions for patients with lung cancer who become short of breath quickly.", "status": "new", "response": "" },
+    { "id": "s2", "kind": "idea", "from": "Oncology nurse", "country": "DK", "date": "2027-11-09", "text": "Could nurses give patients a card with a QR code to the exercise programme at the first chemotherapy visit?", "status": "new", "response": "" },
+    { "id": "s3", "kind": "need", "from": "Manager, rehabilitation centre", "country": "DE", "date": "2027-11-01", "text": "We would like an example of how to calculate staff time for digital group sessions.", "status": "in-review", "response": "" },
+    { "id": "s4", "kind": "idea", "from": "Patient representative", "country": "SE", "date": "2027-10-20", "text": "Let patients who have finished the programme record a short greeting to new patients.", "status": "answered", "response": "Thank you. We have passed your idea to the team that works on the introduction video for patients." },
+    { "id": "s5", "kind": "need", "from": "Family doctor", "country": "LT", "date": "2027-10-11", "text": "Where can I read about when exercise is not recommended during cancer treatment?", "status": "answered", "response": "Thank you for your question. The open platform has a reading list under Learnings & resources, and the Academy covers this in module 1." }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Needs Assessment & Status Quo", "activities": ["Secure approval and resources", "Form a work group and define roles", "Map the current care process", "Define assumptions and expected results", "Map and involve stakeholders", "Research user needs", "Learn from others", "Write a problem definition"] },
+  { "id": 2, "name": "Solution Design", "activities": ["Generate ideas", "Explore digital tools, possibilities, policies and laws", "Build early versions", "Test and learn", "Describe the future way of working", "Engage and prepare the organisation"] },
+  { "id": 3, "name": "Service Strategy & Implementation", "activities": ["Describe and plan resources", "Economic plan and funding", "Resource mobilisation", "Define outcomes and targets", "Plan the pilot evaluation", "Pilot testing", "Change management"] },
+  { "id": 4, "name": "Sustainability", "activities": ["Plan for the long term", "Build skills and capacity", "Plan for spreading the solution", "Secure organisational resources", "Describe the value", "Set up leadership and decision-making"] },
+  { "id": 5, "name": "Evaluation", "activities": ["Collect and analyse data", "Improve and adjust", "Learn from the project"] }
+]
